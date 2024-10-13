@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muisc Polayer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Muisc player</h1>
+    <div id="player"> 
+        <audio id="audio" controls></audio>
+        <div id="track-info">
+            <h2 id="track-title"></h2>
+            <h3 id="track-artist"></h3>
+        </div>
+        <button id="next-btn">Next</button>
+    </div>
+
+    <h2>Playlist management</h2>
+    <input type="text" id="title-input" placeholder="Song title">
+    <input type="text" id="artist-input" placeholder="Artist Name">
+    <input type="text" id="url-input" placeholder="Link">
+    <button id="add-btn">Add Song</button>
+
+    <ul id="song-list"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
